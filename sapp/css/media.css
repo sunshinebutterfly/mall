@@ -1,0 +1,6 @@
+﻿@media (min-width: 321px) and (max-width:639px){
+    .m-list2 li span{
+        font-size: 14px;
+        height: 24px;
+    }
+}

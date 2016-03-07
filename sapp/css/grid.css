@@ -1,0 +1,138 @@
+﻿/*************头部**********/
+.g-hd{
+	position:relative;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:16px;
+	color:#333333;
+}
+.g-hd a{
+	position: absolute;
+    left: 4%;
+	font-size: 26px;
+	color:#333;
+}
+.g-hd a.ff{
+	font-family: "Microsoft YaHei";
+}
+/*******尾部**********/
+.g-ft{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+/***************浮动,居中布局*****************/
+.g-fl{
+	float:left;
+}
+.g-fr{
+	float:right;
+}
+.g-tc{
+	text-align:center;
+}
+.g-tl{
+    text-align:left;
+}
+.g-tr{
+    text-align:right;
+}
+.g-pa{
+    position: absolute;
+}
+.g-pr{
+    position: relative;
+}
+.g-ds{
+    display: block;
+}
+.g-dn{
+    display: none;
+}
+
+/****************边距布局**********************/
+.g-margin-auto{
+    margin: 0 auto;
+}
+.g-padding{
+    padding: 3%;
+}
+.g-padding10{
+    padding: 10px;
+}
+.g-p-auto{
+	padding:0 5%;
+}
+.g-p-tb{
+	padding:3% 0;
+}
+.g-m-auto{
+	margin:0 5%;
+}
+.g-m-bt50{
+	margin-bottom:50px;
+}
+.g-m-top-8{
+	margin-top:8px;
+}
+.g-paddingF5{
+    padding-left: 5px;
+}
+.g-paddingF25{
+    padding-left: 25px;
+}
+.g-paddingR5{
+    padding-right: 5px;
+}
+.g-paddingR10{
+    padding-right: 10px;
+}
+.g-paddingR15{
+    padding-right: 15px;
+}
+.g-paddingT20{
+    padding-top: 20px;
+}
+.g-paddingT25{
+    padding-top: 25px;
+}
+.g-paddingT30{
+	padding-top: 30px;
+}
+.g-marginT5{
+	margin-top: 5px;
+}
+.g-marginT10{
+	margin-top: 10px;
+}
+.g-marginT30{
+	margin-top: 30px;
+}
+.g-marginR5{
+	margin-right: 5px;
+}
+/****************宽度**********************/
+.g-w{
+	width:100%
+}
+.g-w40{
+    width: 40%;
+}
+.g-w60{
+    width: 60%;
+}
+.g-w65{
+    width: 65%;
+}
+
+/****************色块间距**********************/
+.g-h-bg{
+	width:100%;
+	height:30px;
+	background-color:#f5f5f5;
+}

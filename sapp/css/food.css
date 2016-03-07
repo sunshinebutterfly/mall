@@ -1,0 +1,153 @@
+.tpoic{
+    height: 40px;
+    background-color: #fff6e5;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333333;
+	position:relative
+}
+.tpoic a{
+	font-size:26px;
+	position:absolute;
+	left:10px
+}
+.product {
+    padding: 5% 0;
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+}
+.product li{
+    width: 25%;
+    float: left;
+    border-right: 1px solid #dfdfdf;
+}
+.product li:last-child{
+    border-right: none;
+}
+.hot{
+    padding: 3%;
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+}
+.hot i{
+    background: url("../images/Special_img_hot.png") no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-size: 100%;
+    vertical-align: bottom;
+    margin-right: 7px;
+}
+.hot a{
+    font-family: Airal;
+    float: right;
+    font-weight: 700;
+}
+.swiper-slide{
+    padding: 0 3%;
+    background-color: #fff;
+}
+.swiper-slide{
+    width: 40%;
+    border-right: 1px solid #dfdfdf;
+    float: left;
+}
+.swiper-slide:last-child{
+    border-right: none;
+}
+.swiper-slide a {
+    display: inline-block;
+    position: relative;
+    z-index: 99999;
+}
+.swiper-slide a span{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    background: rgba(255,255,255,0.7);
+    width: 100%;
+    padding: 3px 0 3px 5px;
+    font-size: 14px;
+}
+.swiper-slide p{
+    padding: 3px 0 3px 5px;
+}
+.swiper-slide i{
+    padding: 3px 0 3px 3px;
+    font-style: normal;
+    color: #d51414;
+
+    font-size: 16px;
+}
+.swiper-container{
+    background-color: #fff;
+}
+#myTabs{
+    padding: 0;
+    background-color: #fff;
+}
+#myTabs li{
+    float: left;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    width: 20%;
+    text-align: center;
+}
+.nav-tabs > li > a {
+    margin-right: 0px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    border: none;
+    border-bottom: 2px solid #ff8028;
+    color: #ff8028;
+    margin: 0 20px;
+}
+.myTabs{
+    margin-top: 35px;
+}
+.tab-content ul{
+    padding: 3% 0;
+}
+.tab-content li{
+    width: 45%;
+    float: left;
+    margin-left: 3.3%;
+    background-color: #fff;
+    padding-bottom: 2%;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+.tab-content li img{
+    border-radius: 5px;
+}
+.tab-content li span{
+    padding: 3px 0 0 7px;
+    display: block;
+    color:#333;
+    font-size: 12px;
+    height: 22px;
+    overflow: hidden;
+}
+@media (min-width: 321px) and (max-width:639px){
+    .tab-content li span{
+        font-size: 14px;
+        height: 24px;
+    }
+}
+.tab-content li p{
+    color: #d51414;
+    font-size: 20px;
+    padding-left: 3px;
+}
+.tab-content li del{
+    padding-left: 7px;
+}

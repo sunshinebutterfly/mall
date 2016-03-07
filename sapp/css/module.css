@@ -1,0 +1,410 @@
+﻿/**************标题***************/
+.m-tt{
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	color:#333;
+}
+.m-tt2, .m-tt3{
+    padding: 3%;
+    font-size: 14px;
+    background-color: #fff;
+}
+.m-tt2 i {
+	display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+    vertical-align: text-bottom;
+    background: url("../images/Special_img_hot.png") no-repeat;
+    background-size: 100%;
+}
+.m-tt3 img{
+    width: 22px;
+    vertical-align: text-bottom;
+}
+/**************列表***************/
+.m-list{
+	line-height:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-top: 1px solid #f0f0f0;
+}
+.m-list li{
+	color:#ff8028;
+	font-size:12px;
+}
+.m-list2{
+	padding: 3% 0;
+}
+.m-list2 li{
+    float: left;
+	width: 45%;
+    margin-left: 3.3%;
+    padding-bottom: 2%;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.m-list2 li img {
+    border-radius: 5px;
+}
+.m-list2 li span {
+    display: block;
+    height: 22px;
+    padding: 3px 0 0 7px;
+    font-size: 12px;
+    overflow: hidden;
+    color: #333;
+}
+.m-list2 li p {
+    color: #d51414;
+    font-size: 20px;
+    padding-left: 3px;
+}
+.m-list2 li del {
+    padding-left: 7px;
+	color:#666
+}
+
+/**********价格*********/
+.m-price{
+	line-height:35px;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+/**********数量*********/
+.m-number{
+	height:40px;
+	line-height:38px;
+	border-bottom: 1px solid #f0f0f0;
+}
+/**********优惠*********/
+.m-deals{
+	line-height:40px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.m-deals dt{
+	float:left;
+	width:65px;
+	color:#666666;
+	font-weight:normal;
+}
+.m-deals dd{
+	margin-left:67px;
+}
+.m-deals i{
+	margin-right:4px;
+}
+/************评价***********/
+.m-assess-wrapper{
+	display: block;
+    padding:0 10px;
+    background-color: #fff;
+	border-top:1px solid #ddd;
+}
+.m-assess-top {
+    position: relative;
+    padding: 11px 10px 11px 0;
+    background-color: #fff;
+}
+.m-assess-bottom {
+    padding-bottom: 12px;
+    background-color: #fff;
+}
+.m-user-portrait img {
+    display: block;
+    float: left;
+    width: 27px;
+    height: 27px;
+	padding:1px;
+    border-radius: 50px;
+	border:1px solid #ff812b;
+}
+.m-user-name {
+    font-size: 13px;
+    float: left;
+    height: 27px;
+	line-height: 27px;
+    margin-right: 5px;
+    margin-left: 10px;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100px;
+}
+.m-assess-date{
+    font-size: 13px;
+    line-height: 27px;
+    float: right;
+    height: 27px;
+    color: #999;
+}
+.m-assess-content {
+    font-size: 13px;
+    line-height: 18px;
+    margin-right: 10px;
+    color: #333;
+    overflow: hidden;
+	margin-bottom: 10px;
+}
+/**********底部浮动*****************/
+.m-four-column .m-concern-cart {
+    width: 42%;
+	height:50px;
+	background-color:#fff;
+}
+.m-four-column .m-concern-cart a{
+	display:inline-block;
+	float:left;
+	width:33%;
+	margin-top: 7px;
+}
+.m-four-column .m-concern-cart img{
+	width: 22px;
+    height: 20px;
+}
+.m-four-column .m-concern-cart p{
+	color:#999999;
+}
+.m-four-column .m-concern-cart .active p{
+	color:#ff8028;
+}
+.m-four-column .m-action-list {
+    width: 58%;
+}
+.m-four-column .m-action-list  a{
+	font-size: 15px;
+	color:#fff;
+	width: 50%;
+	display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+.m-four-column .m-action-list .cart{
+	background-color: #ff8028;
+}
+.m-four-column .m-action-list .directorder{
+	background-color: #d51414;
+}
+/****************收货地址********************/
+.m-address{
+	padding:30px 0;
+}
+.m-address h1{
+    font-weight: normal;
+    padding-bottom: 3%;
+}
+.m-address .m-step{
+    position: relative;
+    background-color: #fff6e5;
+    padding: 6% 5%;
+    font-size: 14px;
+}
+.m-address .m-step .m-new{
+    padding-right: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    color: #333333;
+}
+.m-address .m-step .m-ads{
+    padding-right: 20px;
+    font-size: 12px;
+    color: #666666;
+}
+.m-address .m-step .m-ads .dizhi{
+    display: inline-block;
+    margin-left: 60px;
+}
+.m-address .m-step .m-point{
+    position: absolute;
+    right: .625em;
+    top: 50%;
+    width: 15px;
+    height: 20px;
+    margin-top: -0.5em;
+    background: url(../images/Shopping-Cart_bat_address_arrow.png) no-repeat;
+    background-size: .5625em 1em;
+}
+.m-address .m-step .m-borderT{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: url(../images/Shopping-Cart_bat_address_edge.png) repeat-x;
+    background-size: 21%;
+}
+.m-address .m-step .m-borderB{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: url(../images/Shopping-Cart_bat_address_edge.png) repeat-x;
+    background-size: 21%;
+}
+.m-total{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5%;
+	background-color:#fff;
+}
+.m-payb-btn{
+    display: block;
+    float: right;
+    width: 35%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #d51414;
+    color: #fff;
+}
+/*********************box*************************/
+.m-box{
+    position: relative;
+}
+.m-box .img{
+    width: 70px;
+    height: 70px;
+    margin-right:10px;
+}
+.m-box .img img{
+    max-width: 100%;
+}
+.m-box .txt{
+    margin-left: 80px;
+}
+.m-box .txt h3{
+    height: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 15px;
+}
+.m-box .txt p{
+    margin-top: 8px;
+}
+.m-box .txt .num{
+    position: absolute;
+    right: 3%;
+    bottom: 0;
+}
+/***********************遮罩层*************/
+.m-mark{
+	width: 250px;
+	z-index: 9999;
+    position: absolute;
+}
+.m-mark-pop{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.1);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9998;
+}
+.m-float-modePop{
+	text-align:center;
+	background: rgba(248,248,248,.95);
+    border-radius: 10px;
+    padding: 0;
+    padding-top: 15px;
+}
+.m-float-modePop .content {
+    margin-top: 15px;
+}
+.m-float-modePop .m-Btn{
+    display: block;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+}
+.m-float-modePop .m-Btn button{
+    float: right;
+    width: 50%;
+    margin: 0;
+    border: 0;
+    background: 0;
+    height: 35px;
+    line-height: 35px;
+}
+.m-float-modePop .m-Btn button.ok{
+    border-left: 1px solid #ddd;
+}
+    /********************bootstrop tabs*******************/
+#myTabs{
+    padding: 0;
+    background-color: #fff;
+}
+#myTabs li{
+    float: left;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    width: 33%;
+    text-align: center;
+}
+.nav-tabs {
+    border-bottom: 1px solid #fff;
+}
+.nav-tabs > li > a {
+    margin-right: 0px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    border: none;
+    border-bottom: 2px solid #ff8028;
+    color: #ff8028;
+    margin: 0 20px;
+}
+
+.m-closeder{
+    position: absolute;
+    right: -3%;
+    top:0;
+    width: 17%;
+    height: 80px;
+    line-height: 90px;
+    margin-top: -10px;
+    padding-bottom: 3%;
+    text-align: center;
+    box-sizing: content-box;
+    color: #fff;
+    animation:myfirst 1s;
+}
+@keyframes myfirst
+{
+    from {
+        right: -21%;
+    }
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+    from {
+        right: -21%;
+    }
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    from {
+        right: -21%;
+    }
+}

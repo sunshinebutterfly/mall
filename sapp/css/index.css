@@ -1,0 +1,228 @@
+.style_col{
+    background-color: #f5f5f5;
+}
+.header{
+    height: 50px;
+    position: fixed;
+    background-image: url("../images/TT_01.png");
+    background-size: 15%;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+}
+#headerd{
+    height: 50px;
+}
+.header .sweep-yard{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+.header .sweep-yard i{
+    background: url("../images/BT_Sweep.png") no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height: 14px;
+    display: block;
+    margin: 0 auto;
+}
+.header .sweep-yard span{
+    padding-left: 2px;
+    color: #fff;
+}
+.header .search-form{
+    margin-left: 66px;
+    padding-right: 50px;
+    display: inline-block;
+    width: 80%;
+}
+.header .search-form .search-box{
+    margin-top: 7px;
+}
+.header .search-form .search-box .search{
+    height: 35px;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+.header .screening{
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+.header .screening i{
+    background: url("../images/BT_screen.png") no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height: 14px;
+    display: block;
+    margin: 0 auto;
+}
+.header .screening span{
+    padding-left: 2px;
+    color: #fff;
+}
+.main_visual .main_image {
+    width:100%;
+    margin:0 auto;
+    position:relative
+}
+.main_visual{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.main_visual .main_image img{
+    width: 100%;
+}
+.main_visual .main_image ul {
+}
+.main_visual .main_image li {
+    width:100%;
+}
+.main_visual .main_image li a {
+    display:block;
+    width:100%;
+}
+.main_visual .flicking_con {
+    margin:0 auto;
+}
+.main_visual .flicking_con .flicking_inner {
+    position:absolute;
+    z-index:999;
+    width: 100%;
+    height:21px;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 0px;
+}
+.main_visual .flicking_con a {
+    width:10px;
+    height:10px;
+    margin:0 2px;
+    padding:0;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display:inline-block;
+    text-indent:-1000px;
+}
+.main_visual .flicking_con a.on {
+    background-color: #fff;
+}
+#btn_prev, #btn_next {
+    z-index:11111;
+    position:absolute;
+    width:73px!important;
+    height:74px!important;
+    top:50%;
+    margin-top:-37px;
+    display:none;
+}
+.quick-entry-nav{
+    padding-top: 11px;
+    background-color: #fff;
+}
+.quick-entry-link {
+    width: 25%;
+    float: left;
+    font-size: 12px;
+    text-decoration: none;
+    color: #666;
+    text-align: center;
+    display: block;
+    padding-bottom: 11px;
+}
+.quick-entry-link img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 6px auto;
+}
+.banner{
+    border-bottom: 1px solid #ddd;
+}
+.conter{
+    margin-top: 35px;
+}
+.conter .img1 {
+     background: url(../images/img_Direct-selling.png) no-repeat;
+     float: left;
+     display: inline-block;
+     height: 35px;
+     width: 30px;
+     background-size: 75%;
+     background-position-y: 10px;
+ }
+.conter .img2 {
+    background: url(../images/img_New.png) no-repeat;
+    float: left;
+    display: inline-block;
+    height: 35px;
+    width: 30px;
+    background-size: 75%;
+    background-position-y: 10px;
+}
+.conter .img3 {
+    background: url(../images/img_Limit.png) no-repeat;
+    float: left;
+    display: inline-block;
+    height: 35px;
+    width: 30px;
+    background-size: 75%;
+    background-position-y: 10px;
+}
+.conter ul li {
+    padding: 0;
+    margin: 0;
+    float: left;
+    line-height: 45px;
+    height: 45px;
+    width: 100%;
+    position: relative;
+}
+.conter ul {
+    padding: 0 3%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.conter .family {
+    font-style: normal;
+    font-family: 宋体;
+}
+.conter span {
+    color: #666;
+    font-size: 14px;
+}
+.conter .conterimgs {
+    width: 33%;
+    float: left;
+    display: block;
+}
+.conter .spacer{
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    overflow: hidden;
+}
+.conter .recommended{
+    text-align: center;
+    margin-top: 5px;
+}
+.Physical{
+    padding: 0 4%;
+    margin: 10px 0;
+}
+.footer {
+    padding: 2% 0;
+    position: fixed;
+    bottom: 0px;
+    background-color: #fff;
+    width: 100%;
+    border-top: 1px solid #a6a6a6;
+}
+.footer img {
+    width: 22px;
+    height: 20px;
+}

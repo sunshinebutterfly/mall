@@ -1,0 +1,318 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<title>购物车</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
+	<link href="css/module.css" rel="stylesheet">
+	<link href="css/unit.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="style_col">
+<div class="g-hd">
+	<a class="u-ff3" href="">&lt;</a>
+	购物车
+</div>
+<div class="g-bd g-m-bt50">
+	<div class="g-h-bg"></div>
+	<!--商品详情-->
+	<div id="del101">
+		<div class="m-tt3 u-borderT">
+			<img src="images/img_03.png">
+			看了又看
+			<span class="g-fr edits" id="edits101" onclick="edits(101);">编辑</span>
+		</div>
+		<div class=" u-borderT clearfix g-padding10 g-pr">
+            <div class="m-box">
+				<div class="g-fl g-paddingT30 g-paddingR10 selectNumBtn active" onclick="selectNumBtn('101',this);">
+					<span class="u-icon u-icon-img"></span>
+				</div>
+				<div class="g-fl">
+                    <a href="https://www.baidu.com/" class="g-ds">
+                        <div class="img">
+                            <img src="images/4.jpg">
+                        </div>
+                    </a>
+				</div>
+				<div class="txt" id="txt101">
+                    <a href="https://www.baidu.com/" class="g-ds">
+                        <h3>名字部分如果一行显示不撒旦阿斗阿斗完就用省略号…</h3>
+                        <div>
+                            <i class="u-seckill u-seckill-bg1">鑫币价</i>
+                            <i class="u-seckill u-seckill-bg2">红利抵扣</i>
+                            <i class="u-seckill u-seckill-bg2">返红利</i>
+                        </div>
+                        <p class="u-fc"><span class="u-fs14">￥</span><span class="u-fs14" id="list_price101">100.00</span> <del class="u-fc4">￥80.00</del></p>
+                        <span class="num">×<span id="nums101">2</span></span>
+                    </a>
+				</div>
+			</div>
+		</div>
+        <div class="g-h-bg"></div>
+	</div>
+    <div id="del102">
+        <div class="m-tt3 u-borderT">
+            <img src="images/img_03.png">
+            看了又看
+            <span class="g-fr edits" id="edits102" onclick="edits(102);">编辑</span>
+        </div>
+        <div class=" u-borderT clearfix g-padding10 g-pr">
+            <div class="m-box">
+                <div class="g-fl g-paddingT30 g-paddingR10 selectNumBtn active" onclick="selectNumBtn('102',this);">
+                    <span class="u-icon u-icon-img"></span>
+                </div>
+                <div class="g-fl">
+                    <a href="https://www.baidu.com/" class="g-ds">
+                        <div class="img">
+                            <img src="images/4.jpg">
+                        </div>
+                    </a>
+                </div>
+                <div class="txt" id="txt102">
+                    <a href="https://www.baidu.com/" class="g-ds">
+                        <h3>名字部分如果一行显示不撒旦阿斗阿斗完就用省略号…</h3>
+                        <div>
+                            <i class="u-seckill u-seckill-bg1">鑫币价</i>
+                            <i class="u-seckill u-seckill-bg2">红利抵扣</i>
+                            <i class="u-seckill u-seckill-bg2">返红利</i>
+                        </div>
+                        <p class="u-fc"><span class="u-fs14">￥</span><span class="u-fs14" id="list_price102">100.00</span> <del class="u-fc4">￥80.00</del></p>
+                        <span class="num">×<span id="nums102">2</span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="g-h-bg"></div>
+    </div>
+    <div id="del103">
+        <div class="m-tt3 u-borderT">
+            <img src="images/img_03.png">
+            看了又看
+            <span class="g-fr edits" id="edits103" onclick="edits(103);">编辑</span>
+        </div>
+        <div class=" u-borderT clearfix g-padding10 g-pr">
+            <div class="m-box">
+                <div class="g-fl g-paddingT30 g-paddingR10 selectNumBtn active" onclick="selectNumBtn('103',this);">
+                    <span class="u-icon u-icon-img"></span>
+                </div>
+                <div class="g-fl">
+                    <a href="https://www.baidu.com/" class="g-ds">
+                        <div class="img">
+                            <img src="images/4.jpg">
+                        </div>
+                    </a>
+                </div>
+                <div class="txt" id="txt103">
+                    <a href="https://www.baidu.com/" class="g-ds">
+                        <h3>名字部分如果一行显示不撒旦阿斗阿斗完就用省略号…</h3>
+                        <div>
+                            <i class="u-seckill u-seckill-bg1">鑫币价</i>
+                            <i class="u-seckill u-seckill-bg2">红利抵扣</i>
+                            <i class="u-seckill u-seckill-bg2">返红利</i>
+                        </div>
+                        <p class="u-fc"><span class="u-fs14">￥</span><span class="u-fs14" id="list_price103">100.00</span> <del class="u-fc4">￥80.00</del></p>
+                        <span class="num">×<span id="nums103">2</span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="g-h-bg"></div>
+    </div>
+	<!--/商品详情-->
+	<!--价格合计-->
+
+	<div class="m-total g-ft u-borderT">
+		<div class="g-fl u-fc3 u-fs16 g-w65 g-tl">
+			合计：<i class="u-fc">￥</i><span class="u-fc total">600.00</span><span class="g-fr u-fs12 g-paddingR10 u-fc4">不含运费</span>
+		</div>
+		<a class="m-payb-btn u-fs16 u-bg5">确认(<span id="numbers">3</span>)</a>
+	</div>
+	<!--/价格合计-->
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/number.js"></script>
+<script>
+    //选择之后商品数量传入总数
+    function elements(){
+        var number =  $('#numbers');
+        var $elements = $('.active');
+        return number.html($elements.length);
+    }
+    //选择和不选择之后的总数合计
+    function selectNumBtn(id,classes){
+        var total = parseFloat($(".total").text());
+        var number = parseInt($("#number"+id).text());
+        var priceNone = parseInt($("#priceNone"+id).val()).toFixed(2);
+        var nums = parseInt($("#nums"+id).text());
+        var list_price = document.getElementById("list_price"+id);
+        var list_priceText = parseInt($("#list_price"+id).text()).toFixed(2);
+        var tp;
+        if(list_price != null){
+            if($(classes).hasClass('active') == false){
+                $(classes).addClass("active");
+                tp = nums * list_priceText + total ;
+                $(".total").html(tp.toFixed(2));
+                elements();
+            }else{
+                $(classes).removeClass("active");
+                tp = total - nums * list_priceText ;
+                $(".total").html(tp.toFixed(2));
+                elements();
+            }
+        }else{
+            if($(classes).hasClass('active') == false){
+                $(classes).addClass("active");
+                tp = number * priceNone + total ;
+                $(".total").html(tp.toFixed(2));
+                elements();
+            }else{
+                $(classes).removeClass("active");
+                tp = total - number * priceNone ;
+                $(".total").html(tp.toFixed(2));
+                elements();
+            }
+        }
+    }
+    //加载编辑
+	function edits(id){
+        var editsText = $("#edits"+id).text();
+        var list_price = parseFloat($("#list_price"+id).text());
+        var nums = parseInt($("#nums"+id).text());
+        if(editsText === "\u7f16\u8f91"){
+            txtdetailed(id,nums,list_price);
+        }else{
+            if(!$("#minus"+id))return false;
+            if(!$("#plus"+id))return false;
+            if(!$("#number"+id))return false;
+            var number = parseInt($("#number"+id).text());
+            var priceNone = parseInt($("#priceNone"+id).val()).toFixed(2);
+            editComplete(id,number,priceNone);
+        }
+	}
+    //增加数量
+    function plus(id,classes){
+        var plus = $(classes).parent().parent().prevAll().hasClass('active');
+        var num = new Number("number"+id);
+        if(plus == false){
+            num.addNum();
+        }else{
+            var priceNone = parseInt($("#priceNone"+id).val());
+            var total =  parseFloat($(".total").text());
+            var totals = total +  priceNone;
+            $(".total").html(totals.toFixed(2));
+            num.addNum();
+        }
+    }
+    //减少数量
+    function minus(id,classes){
+        var minus = $(classes).parent().parent().prevAll().hasClass('active');
+        var num = new Number("number"+id);
+        var nums =  parseFloat($("#number"+id).text());
+        var priceNone = parseInt($("#priceNone"+id).val());
+        var total =  parseFloat($(".total").text());
+        if(minus == false){
+            if(nums === 1){
+                return false;
+            }
+            num.removeNum();
+        }else{
+            if(nums === 1){
+                return false;
+            }else{
+                var totals = total -  priceNone;
+                $(".total").html(totals.toFixed(2));
+            }
+            num.removeNum();
+        }
+    }
+    //删除
+    function del(id){
+        var total = parseFloat($(".total").text());
+        var number = parseInt($("#number"+id).text());
+        var priceNone = parseInt($("#priceNone"+id).val()).toFixed(2);
+        var del = document.getElementById("del"+id);
+        var tp;
+        if(del == null){
+            return false;
+        }else{
+            mask();
+            $(".m-mark").css("left",(document.body.clientWidth-250)/2+"px");
+            $(".ok").on("click", function () {
+                $("#del"+id).remove();
+                $(".m-mark").remove();
+                $(".m-mark-pop").remove();
+                tp = total - number * priceNone ;
+                $(".total").html(tp.toFixed(2));
+            })
+            $(".cancel").on("click", function () {
+                $(".m-mark").remove();
+                $(".m-mark-pop").remove();
+            })
+        }
+       return false;
+        $("#del"+id).remove();
+    }
+    //编辑之后弹出修改个数函数
+    function txtdetailed(id,number,list_price){
+        var txt = $("#txt"+id);
+        $("#edits"+id).html("\u5b8c\u6210");
+        var limit = '<div class="g-paddingT25 clearfix g-w40 g-margin-auto">'+
+                '<span class="u-btn g-fl" id="minus'+id+'" onclick="minus('+id+',this)">-</span>'+
+                '<span class="u-btn u-btn2 g-fl" id="number'+id+'">'+number+'</span>'+
+                '<input type="hidden" id="priceNone'+id+'" value="'+list_price+'" />'+
+                '<span class="u-btn g-fl" id="plus'+id+'"  onclick="plus('+id+',this)">+</span>'+
+                '</div>'+
+                '<a href="javascript:void(0);" class="m-closeder u-bg4" onclick="del('+id+')">删除</a>';
+        txt.empty();
+        txt.append(limit);
+    }
+    //编辑完成函数
+    function editComplete(id,number,list_price){
+        var txt = $("#txt"+id);
+        $("#edits"+id).html("\u7f16\u8f91");
+        var limit = '<a href="https://www.baidu.com/" class="g-ds">'+
+                '<h3>名字部分如果一行显示不撒旦阿斗阿斗完就用省略号…</h3>'+
+                '<div>'+
+                '<i class="u-seckill u-seckill-bg1">鑫币价</i> '+
+                '<i class="u-seckill u-seckill-bg2">红利抵扣</i> '+
+                '<i class="u-seckill u-seckill-bg2">返红利</i> '+
+                '</div>'+
+                '<p class="u-fc"><span class="u-fs14">￥</span><span class="u-fs14" id="list_price'+id+'">'+list_price+'</span> <del class="u-fc4">￥80.00</del></p>'+
+                '<span class="num">×<span id="nums'+id+'">'+number+'</span></span>'+
+                '</a>';
+        txt.empty();
+        txt.append(limit);
+    }
+    //遮罩层
+    function mask(){
+        var limit = '<div class="m-mark-pop" style=""></div>'+
+                '<div class="m-mark" style="opacity: 1; top: 40%;">'+
+                '<div class="m-float-modePop">'+
+                '<div class="warnMsg">确定要删除这个宝贝吗？</div>'+
+                '<div class="content"></div>'+
+                '<div class="m-Btn">'+
+                    '<button class="ok">确定</button>'+
+                    '<button class="cancel">取消</button>'+
+                '</div>'+
+                '</div>'+
+                '</div>';
+        $(document.body).append(limit);
+    }
+</script>
+</body>
+</html>
